@@ -5,7 +5,7 @@ void main()
     int N;
     printf("ENTER ANY VALUE");
     scanf("\t%d",&N);
-    if(N<=10)
+    if(1>=N<=10)
     {
         switch(N)
         {
