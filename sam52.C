@@ -1,3 +1,4 @@
+
 #include<stdio.h>
 void main()
 {
@@ -6,28 +7,30 @@ void main()
     scanf("\t%d",&N);
     if(N<=10)
     {
-        switch(0)
+        switch(N)
         {
-        case 1:"one";
+        case 1:printf("\none");
         break;
-        case 2:"two";
+        case 2:printf("\ntwo");
         break;
-        case 3:"three";
+        case 3:printf("\nthree");
         break;
-        case 4:"four";
+        case 4:printf("\nfour");
         break;
-        case 5:"five";
+        case 5:printf("\nfive");
         break;
-        case 6:"six";
+        case 6:printf("\nsix");
         break;
-        case 7:"seven";
+        case 7:printf("seven");
         break;
-        case 8:"eight";
+        case 8:printf("eight");
         break;
-        case 9:"nine";
+        case 9:printf("nine");
         break;
-        case 10:"ten";
+        case 10:printf("ten");
         break;
         }
     }
 }
+
+
